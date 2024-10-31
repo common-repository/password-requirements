@@ -1,0 +1,45 @@
+== Changelog ==
+
+= 2.6.1 (2024-10-25) =
+* JS dependency map and tree-shaking optimized
+* PHP 7.4 compatibility fixes implemented
+
+= 2.6.0 (2024-10-17) =
+* Fix blog switching bug in WordPress Multisite (Network) installations
+* Add caching to user roles getter function, along with proper cache invalidation, to improve the plugin's performance
+* Language mapping file added for easier generation of JSON translation files
+* Dependencies updated
+* Code improvements
+
+= 2.5.0 (2024-08-30) =
+* Compatibility with older version of PHP (7.4) implemented
+* Dependencies updated
+* Code improvements
+
+= 2.4.0 (2024-08-20) =
+* Password reset validation improvements - now rendering an user-friendly error message rather than a "wp_die" screen
+* Password hint logic improved
+* Required WordPress core version bumped to 6.6 to use the new React JSX runtime package
+* Plugin container implementation improved
+* Dependencies updated
+* Code improvements
+
+= 2.3.0 (2024-07-11) =
+* Settings page redesigned
+* Dependencies updated
+* Code improvements
+
+= 2.2.0 (2024-05-24) =
+* Dependencies updated
+* Code improvements
+* Basic onboarding process implemented
+
+= 2.1.1 (2024-04-26) =
+* Plugin assets and descriptions updated
+
+= 2.1.0 (2024-04-26) =
+* Code improvements and dependency updates
+* Improvements on plugin activation and deactivation hooks registration
+
+= 2.0.0 (2024-04-12) =
+* The first stable, public release
